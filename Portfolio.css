@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+
+.hider{
+    padding: 0 10%;
+    width: 100%;
+    height:100vh;
+    background: linear-gradient( #BEADFA, #D0BFFF);
+    }
+    .content{
+        width: 100%;
+        padding-top: 15%;
+    }
+    .text_comtant{
+        float: left;
+        width: 40%;
+        height:25%;
+    }
+    .home_imge{
+        width: 45%;
+        display: inline-block;
+        float:right;
+    }
+    img{
+        display: flex;
+        width: 80%;
+        height: 50%;
+        border-radius: 30px;
+    }
+    .text_comtant .home_imge{
+        display: inline-block;
+    }
+
+    nav{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-left: 6%;
+        padding-right: 25%;
+}
+    nav ul li{
+        display: inline-block;
+        list-style-type: none;
+        padding: 10px 20px;
+
+    }
+    nav ul li a{
+        color: #efeafc;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    nav ul li a:hover{
+        color:#717171;
+        transition: .4s;
+    }
+    .logo{
+        color:#717171 ;
+
+    }
+    h1{
+        color:#717171;
+
+    
+    }
+    p{
+
+        color: #e1d7fa;
+    }
+    h5{
+        color:#efeafc;
+    }
+    .btn{
+        
+        width: 35%;
+        height: 50px;
+        border: 5px solid#ded3fa;
+        background-color: #BEADFA;
+        color: palevioletred;
+        border-radius: 25px;
+        margin-top: 25%;
+        margin-left: 0%;
+        }
+    .btn:hover {/*make the btn vaiboration */
+        transform: translatex(-10px);
+        transition-duration: 0.9;
+        transition-timing-function: ease-out;
+        transition-delay: 0ms;/*the time will return back to work */
+        background-color:  #D0BFFF;
+        color: white;
+    }
+    #bt1{
+        margin-left: 10%;
+    }
+    section{
+        padding-top: 10%;
+        background: linear-gradient( #D0BFFF,#DFCCFB);
+        width: 100%;
+        height: 75vh;
+        padding: 0 10%;
+
+
+    }
+    #edu{
+        padding-left: 0%;
+
+    }
+    #p2{
+    padding-left: 0%;
+    font-size: larger;
+    color: #7c7887;
+    padding-inline-start: 5%;
+    padding: 5%;
+    }
+    .section_2{
+        background: linear-gradient( #DFCCFB,#FFF8C9);
+        width: 100%;
+        height: 75vh;
+        padding: 0 10%;
+
+}
+
+.box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #bfa8ff;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #D0BFFF;
+
+    
+
+}
+h5{
+    color: #7c7887;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+
+}
+.pra{
+    color: #bfa8ff;
+    font-size: 13px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    padding-bottom: 8px;
+
+
+}
+.card .button{
+    border: 5px solid#ded3fa;
+    background-color: #BEADFA;
+    color: palevioletred;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9px 22px;
+    padding-top: 7px;
+    margin: 20px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.card .button:hover {/*make the btn vaiboration */
+    transform: translatex(-10px);
+    transition-duration: 0.9;
+    transition-timing-function: ease-out;
+    transition-delay: 0ms;/*the time will return back to work */
+    background-color:  #D0BFFF;
+    color: white;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #717171;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+    text-align: cente ;
+    line-height:26px ;
+
+}
+.social{
+display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  palevioletred;;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color:white;
+}
+
+
+    
+
+
+    
+    
+    
